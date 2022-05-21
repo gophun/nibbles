@@ -60,7 +60,7 @@ func Str(i int) string {
 }
 
 func Timer() int64 {
-	return time.Now().UnixMilli()
+	return time.Now().UnixNano()
 }
 
 func UCase(s string) string {
